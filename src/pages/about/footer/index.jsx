@@ -3,7 +3,7 @@ import Button from "../../../components/button";
 
 export default function Footer() {
   return (
-    <footer className="flex items-center gap-3">
+    <footer className="flex items-center gap-3 max-sm:flex-wrap max-sm: mb-5">
       <button className="border border-[#171717] rounded-md p-4 flex items-center gap-3 w-full hover:bg-[#171717] transition-colors">
         <FaLinkedin />
         <Button
